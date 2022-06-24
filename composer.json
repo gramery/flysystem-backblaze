@@ -1,5 +1,5 @@
 {
-    "name": "mhetreramesh/flysystem-backblaze",
+    "name": "gramery/flysystem-backblaze",
     "type": "library",
     "description": "Backblaze adapter for the flysystem filesystem abstraction library",
     "keywords": ["flysystem", "filesystem", "api", "backblaze", "client"],
@@ -14,8 +14,8 @@
         }
     ],
     "require": {
-        "php": "^7.2",
-        "league/flysystem": "~1.0",
+        "php": "^8.1.0",
+        "league/flysystem": "*",
         "gliterd/backblaze-b2": ">=1.5.0",
         "psr/http-message-implementation": "*",
         "mikey179/vfsstream": "*"
